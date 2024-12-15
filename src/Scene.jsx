@@ -6,7 +6,7 @@ import { useFrame } from '@react-three/fiber';
 
 export const Scene = () => {
 //    let tex = useTexture("./../smallestai.jpeg");
-let tex = useTexture("./../manjeet.jpeg");
+let tex = useTexture("./manjeet.jpeg");
     //    tex.needsUpdate = true;
     let scene = useRef(null);
     useFrame((state, delta) => {
